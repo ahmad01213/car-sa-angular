@@ -1,0 +1,43 @@
+.carousole,.picsum-img-wrapper img{
+  width: 100vw;
+  margin: auto;
+  padding: 0;
+  object-fit: cover;
+  height: 60vh;
+}
+
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px 20px 0px 0px;
+  left: 0;
+  height: 80px;
+
+  background-color: transparent;
+  color: black;
+}
+
+.slider{
+  top: 0;
+  right: 0;
+  clip-path: polygon(0% 0%,100% 0%,100% 89%,0% 100%);
+
+  left: 0;
+  height: 60vh;
+}
+.nav ul{
+  list-style: none;
+}
+.nav ul li{
+  float: right;
+  font-size: 18px;
+  margin: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+/* https://css-tricks.com/almanac/properties/c/clip-path/ */
